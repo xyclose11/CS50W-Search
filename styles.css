@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 div {
     box-sizing: border-box;
@@ -24,9 +25,14 @@ a:hover {
     color: lightsalmon;
 }
 
-form#defaultSearch {
-    text-align: center;
-    margin: 6px;
+form#defaultSearchForm {
     clear: both;
+    text-align: center;
     
+}
+
+#defaultSearchFormButton {
+    display: block;
+    margin: auto;
+   
 }
