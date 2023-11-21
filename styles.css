@@ -54,18 +54,23 @@ a:hover {
 }
 
 .searchFormDiv {
+    float: left;
     min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
 }
 
 .searchFormLabel {
     float: left;
-    display: inline-block;
     min-width: 167px;
     width: 16%;
     height: 42px;
     color: #222;
-    font-size: 16px;
+    font-size: 13px;
     font-family: inherit;
+    line-height: 16px;
+    vertical-align: middle;
 
 }
 
