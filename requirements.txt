@@ -1,0 +1,5 @@
+1. Minimum of 3 pages
+2. User must be able to submit a form to search using 
+Google
+3. Advanced features pages
+4. Add I'm Feeling Lucky Page
