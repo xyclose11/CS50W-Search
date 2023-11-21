@@ -1,8 +1,16 @@
-header {
+header > a{
     box-sizing: border-box;
-    background-color: blue;
+    background-color: beige;
+    float: right;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 20px;
 }
 
 a:link {
     text-decoration: none;
+}
+
+a:hover {
+    color: lightsalmon;
 }
