@@ -1,6 +1,8 @@
 body {
     box-sizing: border-box;
     margin: 0 auto;
+    background-color: rgb(157, 152, 130);
+    font-family: 'Montserrat', sans-serif;
 }
 div {
     box-sizing: border-box;
@@ -10,19 +12,30 @@ div {
 
 header > a{
     box-sizing: border-box;
-    background-color: beige;
     float: right;
     margin-left: 2px;
     margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     font-size: 20px;
+    border: solid;
+    border-radius: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
+
 a:link {
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+}
+
+a:visited {
     text-decoration: none;
 }
 
 a:hover {
-    color: lightsalmon;
+    color: rgb(255, 255, 255);
 }
 
 form#defaultSearchForm {
@@ -34,6 +47,8 @@ form#defaultSearchForm {
 #defaultSearchFormInput {
     border: solid rgb(179, 173, 173);
     border-radius: 8px;
+    font-size: 16px;
+    padding: 4px;
 }
 
 #defaultSearchFormButton {
@@ -41,4 +56,6 @@ form#defaultSearchForm {
     margin: 6px auto;
     border: solid rgb(179, 173, 173);
     border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
 }
