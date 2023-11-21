@@ -90,7 +90,14 @@ form.searchForm > .searchFormAdvanced {
     border-radius: 8px;
     font-size: 16px;
     padding: 4px;
-    width: 100%
+}
+
+.searchFormInputAdvanced {
+    border: solid rgb(179, 173, 173);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 4px;
+    width: 100%;
 }
 
 .searchFormButton {
