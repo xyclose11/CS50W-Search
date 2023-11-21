@@ -40,20 +40,20 @@ a:hover {
 
 }
 
-form#defaultSearchForm {
+form.searchForm {
     clear: both;
     text-align: center;
     
 }
 
-#defaultSearchFormInput {
+.searchFormInput {
     border: solid rgb(179, 173, 173);
     border-radius: 8px;
     font-size: 16px;
     padding: 4px;
 }
 
-#defaultSearchFormButton {
+.searchFormButton {
     display: block;
     margin: 6px auto;
     border: solid rgb(179, 173, 173);
