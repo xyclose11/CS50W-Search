@@ -40,6 +40,35 @@ a:hover {
 
 }
 
+.searchFormAdvancedDiv {
+    margin-left: 45px;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    width: 100%;
+    clear: both;
+}
+
+.searchFormFormatDiv {
+    clear: both;
+}
+
+.searchFormDiv {
+    min-width: 167px;
+}
+
+.searchFormLabel {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 16px;
+    font-family: inherit;
+
+}
+
 form.searchForm {
     clear: both;
     text-align: center;
@@ -66,6 +95,5 @@ form.searchForm > .searchFormAdvanced {
     font-family: inherit;
 }
 
-.searchFormLabel {
-    display: block;
-}
+
+
