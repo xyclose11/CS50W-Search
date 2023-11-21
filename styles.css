@@ -50,6 +50,7 @@ a:hover {
 }
 
 .searchFormFormatDiv {
+    width: 100%;
     clear: both;
 }
 
@@ -71,7 +72,6 @@ a:hover {
     font-family: inherit;
     line-height: 16px;
     vertical-align: middle;
-
 }
 
 form.searchForm {
@@ -82,6 +82,7 @@ form.searchForm {
 
 form.searchForm > .searchFormAdvanced {
     text-align: left;
+    width: 100%;
 }
 
 .searchFormInput {
@@ -100,5 +101,13 @@ form.searchForm > .searchFormAdvanced {
     font-family: inherit;
 }
 
+.searchFormButtonAdvanced {
+    float: right;
+    border: inherit;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+    vertical-align: middle;
+}
 
 
