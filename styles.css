@@ -1,0 +1,8 @@
+header {
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
