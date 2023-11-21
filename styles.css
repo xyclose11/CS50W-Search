@@ -46,6 +46,10 @@ form.searchForm {
     
 }
 
+form.searchForm > .searchFormAdvanced {
+    text-align: left;
+}
+
 .searchFormInput {
     border: solid rgb(179, 173, 173);
     border-radius: 8px;
@@ -60,4 +64,8 @@ form.searchForm {
     border-radius: 4px;
     font-size: 16px;
     font-family: inherit;
+}
+
+.searchFormLabel {
+    display: block;
 }
