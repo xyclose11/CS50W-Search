@@ -101,7 +101,6 @@ form.searchForm > .searchFormAdvanced {
 }
 
 .searchFormButton {
-    display: block;
     margin: 6px auto;
     border: solid rgb(179, 173, 173);
     border-radius: 4px;
@@ -134,5 +133,4 @@ form.searchForm > .searchFormAdvanced {
     min-width: 120px;
 
 }
-
 
