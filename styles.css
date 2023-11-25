@@ -96,9 +96,17 @@ form.searchForm > .searchFormAdvanced {
     border: solid rgb(179, 173, 173);
     border-radius: 16px;
     font-size: 16px;
+    font-family: inherit;
     padding: 4px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    color: #444444;
     min-height: 24px;
     min-width: 320px;
+}
+
+.searchFormInput:hover {
+    box-shadow:0.5px 0.5px 1px 1px #c9c9c9eb;
 }
 
 .searchFormInputAdvanced {
@@ -106,7 +114,13 @@ form.searchForm > .searchFormAdvanced {
     border-radius: 8px;
     font-size: 16px;
     padding: 4px;
+    padding-left: 6px;
     width: 100%;
+}
+
+.searchFormInputAdvanced:hover {
+    box-shadow:0.5px 0.5px 1px 1px #c9c9c9eb;
+
 }
 
 .searchFormButton {
